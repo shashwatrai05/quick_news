@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "What happened to US citizens like Otto Warmbier detained in North Korea",
+            "description": "Americans arrested in the communist state have included tourists, a teacher and a Christian missionary.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66236989",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1446B/production/_130415038_fab5a449379586e9c9050faa2f65d323716121370_0_3500_21681000x619.jpg",
+            "publishedAt": "2023-07-18T18:37:22.2399735Z",
+            "content": "Since the guns of the Korean War fell silent on 27 July 1953, tens of thousands of US troops have remained in South Korea to cast a wary eye across the 38th parallel to North Korea. \r\nTogether with t… [+6972 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Gilgo Beach murders: Over 200 guns taken from suspect's home",
+            "description": "Other objects reportedly taken by police from the house include a life-sized doll in a glass case.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66205088",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/147F6/production/_130385938_gettyimages-1532804417.jpg",
+            "publishedAt": "2023-07-18T18:22:23.0573518Z",
+            "content": "Police have removed up to 300 guns among potential evidence from the home of the suspect accused of murdering three women in Long Island.\r\nRex Heuermann, 59, has pleaded not guilty to killing Megan W… [+1940 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US heatwave sees hospitals use body-bag ice treatment",
+            "description": "Hospitals see an influx of patients suffering extreme effects as heat hits 37C (110F) in Phoenix.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66237583",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/882D/production/_130416843_lasvegasheat.jpg",
+            "publishedAt": "2023-07-18T18:22:20.3807117Z",
+            "content": "An unrelenting heatwave continues to scorch much of the southern US, leaving more than 90 million Americans under a heat advisory. \r\nIn Phoenix, temperatures are expected to be above 110F (37C) for t… [+3851 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Heatwave hits homeless: ‘I cry all the time'",
+            "description": "Unhoused people reportedly make up half of all heat-associated deaths in the United States.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66239388",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1485D/production/_130416048_p0g1l601.jpg",
+            "publishedAt": "2023-07-18T16:37:21.850049Z",
+            "content": "Phoenix, Arizona, a desert city known for intense temperatures, is breaking records this year for its prolonged stretch of extreme heat.\r\nThe weather does not impact everyone the same and unhoused pe… [+79 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "How 2013 film The Congress predicted Hollywood's current AI crisis",
+            "description": "With US actors striking in part because of the threat of AI to their livelihoods, a 10-year-old, little-seen movie starring Robin Wright now seems eerily prescient, writes Caryn James.",
+            "url": "https://www.bbc.com/culture/article/20230717-how-2013-film-the-congress-predicted-hollywoods-current-ai-crisis",
+            "urlToImage": "https://ychef.files.bbci.co.uk/live/624x351/p0g1dc48.jpg",
+            "publishedAt": "2023-07-18T15:52:17.7865276Z",
+            "content": "The Congress was partially based on Stanislaw Lem's 1971 sci-fi novel The Futurological Congress, but the Hollywood AI plot, which takes up roughly the first third of the film, is entirely Folman's. … [+1846 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Wagner: Satellite images reveal Belarus camp arrival",
+            "description": "A large convoy of suspected Wagner fighters has arrived at a new camp in Belarus.",
+            "url": "http://www.bbc.co.uk/news/world-66234260",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6DE3/production/_130413182_bealrus_wagner_convoy_976x549.png",
+            "publishedAt": "2023-07-18T14:37:24.8333822Z",
+            "content": "A large convoy of suspected Wagner fighters has arrived from Russia at a new camp in Belarus, new satellite images reveal.\r\nBBC Verify's analysis shows dozens of vehicles entering the camp at Tsel, a… [+2413 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Burnt out or jobless - meet China's 'full-time children'",
+            "description": "Gruelling work hours and a dismal job market are forcing young Chinese to make unusual choices.",
+            "url": "http://www.bbc.co.uk/news/world-asia-china-66172192",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4FFC/production/_130367402_gettyimages-1486300480.jpg",
+            "publishedAt": "2023-07-18T14:07:26.2395608Z",
+            "content": "Overworked and exhausted, Julie gave up her job as a game developer in Beijing this April to be a \"full-time daughter\".\r\nThe 29-year-old now spends her day washing dishes, preparing meals for her par… [+7853 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Trump says he expects indictment in election probe",
+            "description": "Mr Trump post that he was told to report to a grand jury, \"which almost always means an Arrest\".",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66236837",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png",
+            "publishedAt": "2023-07-18T14:07:22.6621114Z",
+            "content": "Former US President Donald Trump has said he expects to be arrested by a federal investigation into the 6 January 2021 riot at the Capitol.\r\nIn a post on his social media website, he said he was info… [+708 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US national held by North Korea after crossing border - UN",
+            "description": "The unnamed person crossed the border from South Korea during a tour, the UN says.",
+            "url": "http://www.bbc.co.uk/news/live/world-asia-66234882",
+            "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png",
+            "publishedAt": "2023-07-18T12:37:25.8646958Z",
+            "content": "The Demilitarized Zone (DMZ) between North and South Korea is known as one of the most dangerous places in the world.\r\nThe 150 mile (240km) long border is filled with landmines, surrounded by electri… [+520 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Commonwealth Games: 2026 event in doubt after Victoria cancels",
+            "description": "The Australian state says the cost of the tournament had ballooned to three times original estimates.",
+            "url": "http://www.bbc.co.uk/news/world-australia-66229574",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/249A/production/_130407390_gettyimages-1242347762.jpg",
+            "publishedAt": "2023-07-18T02:37:17.3045822Z",
+            "content": "The 2026 Commonwealth Games are in doubt after the Australian state of Victoria cancelled its plans to host due to budget blowouts.\r\nThe Commonwealth Games Federation (CGF) struggled to find a host c… [+3089 chars]"
+        }
+    ]
+}
