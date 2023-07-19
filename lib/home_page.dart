@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  Article? article;
+  List<Article>? article;
   bool isLoaded = false;
 
   @override
@@ -21,11 +21,14 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> getData() async {
-    final fetchedArticle = await FetchNews.fetchNews();
+    article = await FetchNews().getNews();
     setState(() {
-      article = fetchedArticle;
       isLoaded = true;
     });
+  }
+
+  Future<void> _refreshData() async {
+    await getData();
   }
 
   @override
@@ -35,22 +38,34 @@ class _HomePageState extends State<HomePage> {
         title: const Text('Quick News'),
         backgroundColor: Colors.green.shade400,
       ),
-      body: isLoaded
-          ? ListView.builder(
-              itemCount: 50,
-              itemBuilder: (context, index) {
-                return News(
-                  imageUrl: article!.urlToImage,
-                  title: article!.title,
-                  desc: article!.description,
-                  newsUrl: article!.url,
-                  content: article!.content,
+      body: RefreshIndicator(
+        onRefresh: _refreshData,
+        child: isLoaded
+            ? ListView.separated(
+                itemCount: article?.length ?? 0,
+                itemBuilder: (context, index) {
+                  final currentArticle = article![index];
+                  return MyNews(
+                    imageUrl: currentArticle.urlToImage,
+                    title: currentArticle.title,
+                    desc: currentArticle.description,
+                    newsUrl: currentArticle.url,
+                    content: currentArticle.content,
+                    date: currentArticle.publishedAt,
+                    author: currentArticle.author,
+                  );
+                },
+                separatorBuilder: (context, index) {
+                return Divider(
+                  color: Colors.grey,
+                  height: 1,
                 );
               },
-            )
-          : const Center(
-              child: CircularProgressIndicator(),
-            ),
+              )
+            : const Center(
+                child: CircularProgressIndicator(),
+              ),
+      ),
     );
   }
 }

@@ -2,20 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // ignore: must_be_immutable
-class News extends StatelessWidget {
+class MyNews extends StatelessWidget {
   String imageUrl;
   String title;
   String desc;
   String newsUrl;
   String content;
-  News(
+  DateTime date;
+  String author;
+  MyNews(
     {
   required this.imageUrl,
   required this.title,
   required this.desc,
   required this.newsUrl,
-  required this.content
-  
+  required this.content,
+  required this.date,
+  required this.author
   });
 
   void _launchURL(_url) async {
@@ -26,12 +29,13 @@ class News extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-           height: 175,
+           height: 300,
             padding: const EdgeInsets.all(10),
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  height: 90,
+                  height: 150,
                   width: 135,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
@@ -61,8 +65,7 @@ class News extends StatelessWidget {
                       children: [
                         Text(
                           title,
-                          //  posts![index].title,
-                          maxLines: 2,
+                          maxLines: 4,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             fontSize: 18,
@@ -71,26 +74,33 @@ class News extends StatelessWidget {
                         ),
                         Text(
                           desc,
-                          // posts![index].body,
-                          maxLines: 3,
+        
+                          maxLines: 5,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(fontSize: 14),
                         ),
 
                         Text(
-                          content,
-                          // posts![index].body,
-                          maxLines: 3,
-                          overflow: TextOverflow.ellipsis,
+                          date.toString(),
+                          //overflow: TextOverflow.ellipsis,
                           style: TextStyle(fontSize: 12,
-                          color: Colors.grey),
+                          color: Colors.blueAccent.shade400),
                         ),
+                        Text(
+                          author,
+                          style: TextStyle(fontSize: 12,
+                          color: Colors.red.shade500
+                          ),
+                        )
                       ],
                     ),
                   ),
                 ),
+                
               ],
+
             ),
-          );
+
+    ); 
         }
 }
